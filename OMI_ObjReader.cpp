@@ -20,8 +20,8 @@
 */
 
 
-#include "OMI_ObjReader.h"
-#include "OMI_verbose.h"
+#include "OMI_ObjReader.hpp"
+#include "OMI_verbose.hpp"
 
 #ifdef win32
 
@@ -172,19 +172,22 @@ void OMI_ObjReader::show(){
 	
 	for(int s=0; s < noOfObject+1; s++){
 		int size = Vertices[s].size();
-	
+	     
+		printf("\nVertices :-\n"); 
 	    for(int x=0; x< size; x++){
 		    printf("%f %f %f\n", Vertices[s][x].x, Vertices[s][x].y, Vertices[s][x].z);
 	    }
 	
 	    size = TexCoords[s].size();
-	
+	    
+		printf("\nTexture Coordinates :-\n");
 	    for(int x=0; x< size; x++){
 		    printf("%f %f\n", TexCoords[s][x].x, TexCoords[s][x].y);
 	    }
 	
 	    size = Normals[s].size();
-	
+	    
+		printf("\nNormals :-\n");
 	    for(int x=0; x< size; x++){
 		    printf("%f %f %f\n", Normals[s][x].x, Normals[s][x].y, Normals[s][x].z);
 	    }
@@ -213,11 +216,5 @@ void OMI_ObjReader::show(){
 }
 
 OMI_ObjReader::~OMI_ObjReader(){
-        Vertices.empty();
-		TexCoords.empty();
-		Normals.empty();
-		
-		vertIndex.empty();
-		textIndex.empty();
-		normIndex.empty();
+    OMI_ObjReader::release();
 }

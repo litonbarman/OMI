@@ -20,7 +20,7 @@
 */
 
 
-#include "OMI_ObjMtlReader.h"
+#include "OMI_ObjMtlReader.hpp"
 
 #ifdef win32
 #define _CRT_SECURE_NO_DEPRECATE 
@@ -28,7 +28,7 @@
 
 #define __VERBOSE_H__
 
-#include "OMI_verbose.h"
+#include "OMI_verbose.hpp"
 
 #include <vector>
 #include <stdio.h>
@@ -37,7 +37,6 @@
 #include <stdlib.h>
 
 OMI_ObjMtlReader::OMI_ObjMtlReader(){
-	printf("\nDefault Constructor MTL\n");
 	initialised = false;
 }
 
