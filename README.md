@@ -15,10 +15,3 @@ and further can be rendered my OpenGL, DirectX, Vulkan, WebGL, or any other grap
 ![This is an image](https://github.com/LitonBarman/OMI/blob/main/Demo/Monkey2.png)
 
 ![This is an image](https://github.com/LitonBarman/OMI/blob/main/Demo/Monkey3.png)
-
-## Model Aircraft
-
-![This is an image](https://github.com/LitonBarman/OMI/blob/main/Demo/Plane1.png)
-
-![This is an image](https://github.com/LitonBarman/OMI/blob/main/Demo/Plane2.png)
-
