@@ -8,7 +8,7 @@ and further can be rendered my OpenGL, DirectX, Vulkan, WebGL, or any other grap
 
 ![This is an image](https://github.com/LitonBarman/OMI/blob/main/Demo/Console.png)
 
-## Polular Suzzane Model loaded With OMI
+## Popular Suzzane Model loaded With OMI
 
 ![This is an image](https://github.com/LitonBarman/OMI/blob/main/Demo/Monkey1.png)
 
