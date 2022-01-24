@@ -2,7 +2,7 @@
 OMI ( Open model loader ) is as obj model loader created from scratch in c++...
 
 It can be use to load obj model into the memory,
-and further can be rendered my OpenGL, DirectX, Vulkan, WebGL, or any other graphic API.
+and further can be rendered by OpenGL, DirectX, Vulkan, WebGL, or any other graphic API.
 
 ## Console Output of loaded data
 
